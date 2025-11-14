@@ -1,0 +1,82 @@
+[
+  {
+    "id": "D001",
+    "nombre": "Dra. Andrea Huerta",
+    "especialidad": "Cardiología",
+    "horarioInicio": "10:00",
+    "horarioFin": "14:00",
+    "diasDisponibles": [
+      "Martes",
+      "Miércoles",
+      "Jueves"
+    ]
+  },
+  {
+    "id": "D002",
+    "nombre": "Dr. Ruben Gonzalez",
+    "especialidad": "Neurología",
+    "horarioInicio": "08:00",
+    "horarioFin": "15:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ]
+  },
+  {
+    "id": "D003",
+    "nombre": "Dra. Paola Gonzalez",
+    "especialidad": "Pediatría",
+    "horarioInicio": "09:00",
+    "horarioFin": "16:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles"
+    ]
+  },
+  {
+    "id": "D004",
+    "nombre": "Dr. Daniel Manriquez",
+    "especialidad": "Psiquiatría",
+    "horarioInicio": "08:00",
+    "horarioFin": "12:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ]
+  },
+  {
+    "id": "D005",
+    "nombre": "Dr. Daniel García",
+    "especialidad": "Cirujano Estético",
+    "horarioInicio": "08:00",
+    "horarioFin": "15:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ]
+  },
+  {
+    "id": "D006",
+    "nombre": "Dr. Ivan Vazquez",
+    "especialidad": "Ginecólogo",
+    "horarioInicio": "15:00",
+    "horarioFin": "20:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ]
+  }
+]

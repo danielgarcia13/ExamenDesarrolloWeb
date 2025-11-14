@@ -1,0 +1,101 @@
+[
+  {
+    "id": "C001",
+    "pacienteId": "P005",
+    "doctorId": "D001",
+    "fecha": "2025-12-02",
+    "hora": "13:00",
+    "motivo": "Revisión general",
+    "estado": "cancelada"
+  },
+  {
+    "id": "C002",
+    "pacienteId": "P004",
+    "doctorId": "D002",
+    "fecha": "2025-11-20",
+    "hora": "12:00",
+    "motivo": "Interpretación de análisis",
+    "estado": "programada"
+  },
+  {
+    "id": "C003",
+    "pacienteId": "P001",
+    "doctorId": "D003",
+    "fecha": "2025-12-03",
+    "hora": "14:00",
+    "motivo": "Chequeo mensual",
+    "estado": "cancelada"
+  },
+  {
+    "id": "C004",
+    "pacienteId": "P002",
+    "doctorId": "D003",
+    "fecha": "2025-12-03",
+    "hora": "14:00",
+    "motivo": "Chequeo mensual",
+    "estado": "programada"
+  },
+  {
+    "id": "C005",
+    "pacienteId": "P001",
+    "doctorId": "D003",
+    "fecha": "2025-12-11",
+    "hora": "12:00",
+    "motivo": "Revisión general",
+    "estado": "programada"
+  },
+  {
+    "id": "C006",
+    "pacienteId": "P001",
+    "doctorId": "D003",
+    "fecha": "2025-12-09",
+    "hora": "12:00",
+    "motivo": "Revisión general",
+    "estado": "programada"
+  },
+  {
+    "id": "C007",
+    "pacienteId": "P001",
+    "doctorId": "D003",
+    "fecha": "2025-12-10",
+    "hora": "12:00",
+    "motivo": "Revisión general",
+    "estado": "programada"
+  },
+  {
+    "id": "C008",
+    "pacienteId": "P007",
+    "doctorId": "D003",
+    "fecha": "2025-11-18",
+    "hora": "14:00",
+    "motivo": "Chequeo mensual",
+    "estado": "programada"
+  },
+  {
+    "id": "C009",
+    "pacienteId": "P006",
+    "doctorId": "D003",
+    "fecha": "2025-12-25",
+    "hora": "16:00",
+    "motivo": "Interpretación de analisis",
+    "estado": "cancelada"
+  },
+  {
+    "id": "C010",
+    "pacienteId": "P002",
+    "doctorId": "D001",
+    "fecha": "2025-11-14",
+    "hora": "11:00",
+    "motivo": "Interpretación de analisis",
+    "estado": "programada"
+  },
+  {
+    "id": "C011",
+    "pacienteId": "P001",
+    "doctorId": "D003",
+    "fecha": "2025-11-20",
+    "hora": "12:00",
+    "motivo": "Interpretación de analisis",
+    "estado": "programada"
+  }
+]

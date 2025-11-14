@@ -1,0 +1,94 @@
+//REGISTRAR TRES PACIENTES (POST)
+http://localhost:3000/pacientes
+ {
+    "nombre": "Abisai Valencia",
+    "edad": 35,
+    "telefono": "646-276-54-12",
+    "email": "abisai.v@email.com",
+  }
+
+  {
+    "nombre": "Monica Lopez",
+    "edad": 36,
+    "telefono": "646-111-22-33",
+    "email": "monica.l@email.com"
+  }
+
+  {
+    "nombre": "Jair León",
+    "edad": 22,
+    "telefono": "646-333-22-11",
+    "email": "jair.l@email.com"
+  }
+
+//REGISTRAR 2 DOCTORES(POST)
+http://localhost:3000/doctores
+
+{
+    "nombre": "Dr. Daniel García",
+    "especialidad": "Cirujano Estético",
+    "horarioInicio": "08:00",
+    "horarioFin": "15:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ]
+  }
+
+{
+    "nombre": "Dr. Ivan Vazquez",
+    "especialidad": "Ginecólogo",
+    "horarioInicio": "15:00",
+    "horarioFin": "20:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ]
+  }
+
+//AGENDAR CITA EN HORARIO NO DISPONIBLE
+//FECHA NO DISPONIBLE EN EL HORARIO DEL DOCTOR, HORARIO VALIDO
+  {
+    "pacienteId": "P001",
+    "doctorId": "D002",
+    "fecha": "2025-11-15",
+    "hora": "16:00",
+    "motivo": "Revisión rutinaria"
+  }
+
+//AGENDAR DOS CITAS EN EL MISMO HORARIO
+//CON EL MISMO DOCTOR
+http://localhost:3000/citas
+
+//CITA 1
+  {
+    "pacienteId": "P001",
+    "doctorId": "D003",
+    "fecha": "2025-11-20",
+    "hora": "12:00",
+    "motivo": "Interpretación de analisis"
+  }
+
+//CITA 2
+  {
+    "pacienteId": "P002",
+    "doctorId": "D003",
+    "fecha": "2025-11-20",
+    "hora": "12:00",
+    "motivo": "Interpretación de analisis"
+  }
+
+//CANCELAR CITA
+http://localhost:3000/citas/:id/cancelar
+
+//HISTORIAL DE PACIENTE
+http://localhost:3000/pacientes/:id/historial
+
+//BUSCAR POR ESPECIALIDAD
+http://localhost:3000/doctores/especialidad/:especialidad
